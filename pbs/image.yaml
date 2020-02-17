@@ -1,0 +1,10 @@
+source:
+  git:
+    url: https://github.com/malini-kamalambal/pbs-demo
+    revision: master
+build:
+  env:
+  - name: BP_JAVA_VERSION 
+    value: 11.*
+image:
+  tag: malinipk/pbs-demo-image
